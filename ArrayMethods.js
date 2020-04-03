@@ -88,3 +88,11 @@ arr13.forEach(value => console.log(`Сообщение получат: ${value}`
 let arr14 = ["Test1", "Test2", "Test3"];
 let str = arr14.join(":");
 console.log(str);
+
+let arr15 = [1,2,3,4,5];
+
+let result15 = arr15.reduce((sum, current)=>sum+current,0);
+console.log(result15);
+
+console.log(Array.isArray({}));
+console.log(Array.isArray([]));
